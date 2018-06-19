@@ -3,7 +3,7 @@ package br.com.barcadero.genius.persistence.model;
 import javax.persistence.Entity;
 
 @Entity
-public class DocumentsPro extends Entidade{
+public class ProDocuments extends Entidade{
 
 	/**
 	 * 

@@ -13,6 +13,7 @@ public class ProfessionalResponse {
     private Double latitude=null;
     private EnumProfessionalArea professionalArea=null;
     private Integer rate = 0;
+    private Double rateResume = 0D;
     private Boolean isFavorite = false;
 	public Long getId() {
 		return id;
@@ -73,5 +74,11 @@ public class ProfessionalResponse {
 	}
 	public void setIsFavorite(Boolean isFavorite) {
 		this.isFavorite = isFavorite;
+	}
+	public Double getRateResume() {
+		return rateResume;
+	}
+	public void setRateResume(Double rateResume) {
+		this.rateResume = rateResume;
 	}
 }
